@@ -22,7 +22,7 @@ func (b *us902Band) GetDefaults() Defaults {
 		RX2DataRate:      8,
 		ReceiveDelay1:    time.Second,
 		ReceiveDelay2:    time.Second * 2,
-		JoinAcceptDelay1: time.Second * 5,
+		JoinAcceptDelay1: time.Second * 1,
 		JoinAcceptDelay2: time.Second * 6,
 	}
 }
